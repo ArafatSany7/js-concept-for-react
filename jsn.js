@@ -33,4 +33,33 @@ numbers.map((num) => num * 2);
 
 // add or remove from an array
 
-const product = {};
+const product = [
+  {
+    name: "laptop",
+    price: 3200,
+    brand: "len",
+    color: "silver",
+  },
+  {
+    name: "phone",
+    price: 200,
+    brand: "sam",
+    color: "white",
+  },
+];
+
+const newProduct = {
+  name: "tab",
+  price: 2000,
+  brand: "sam",
+  color: "black",
+};
+
+// copy products array then add newProduct
+
+const newProducts = [...product, newProduct];
+
+// create a new array without one specific item
+// remove phone means creare a new array without phone
+
+const remining = product.filter((p) => p.name !== "phone");
