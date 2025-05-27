@@ -1,15 +1,21 @@
+import "./app.css";
+import Todo from "./todo";
+
 function App() {
   return (
     <>
       <h1>Vite + React</h1>
-      <Device name="Laptop" price="55"></Device>
+      <Todo task=" learn react"></Todo>
+      <Todo task=" Explore jsx" isDone={true}></Todo>
+
+      {/* <Device name="Laptop" price="57"></Device>
       <Device name="Phone" price=" 30"></Device>
       <Device name="Watch" price="3"></Device>
       <Person></Person>
-      <Student grade = "7" score = "99"></Student>
+      <Student grade="7" score="99"></Student>
       <Student></Student>
       <Student></Student>
-      <Devoloper></Devoloper>
+      <Devoloper></Devoloper> */}
     </>
   );
 }
@@ -35,12 +41,14 @@ function Person() {
   );
 }
 
-function Student() {
+// const { grade, score } = { grade: "7", score: "99" };
+
+function Student({ grade = 1, score = 0 }) {
   return (
     <div className="student">
       <h3>This is a student</h3>
-      <p>Name: </p>
-      <p>Age: 21</p>
+      <p>Class: {grade} </p>
+      <p>Score: {score} </p>
     </div>
   );
 }
