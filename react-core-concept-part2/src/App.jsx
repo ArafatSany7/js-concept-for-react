@@ -1,4 +1,6 @@
 import "./App.css";
+import Counter from "./counter";
+import Team from "./Team";
 
 function App() {
   function handleClick() {
@@ -13,6 +15,8 @@ function App() {
   return (
     <>
       <h3>React Core Concept 2</h3>
+      <Team></Team>
+      <Counter></Counter>
       <button onClick={handleClick}>Click me </button>
       <button onClick={handleCliked}>Click Two</button>
       <button
