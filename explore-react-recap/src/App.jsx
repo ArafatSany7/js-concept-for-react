@@ -1,5 +1,5 @@
 import "./App.css";
-import Post from "./post";
+import Posts from "./posts";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         <li>Load Data</li>
       </ol>
       <hr />
-      <Post></Post>
+      <Posts></Posts>
     </>
   );
 }
