@@ -25,4 +25,5 @@ export default function Friends() {
  * 2. Use effect with dependancy array
  * 3. Use fetch to load data
  * 4. Set loaded data to the state
+ * 5. Display data on the component
  */
