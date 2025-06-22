@@ -9,8 +9,6 @@ const Country = ({ country, handleVisitedCountry }) => {
     setVisited(!visited);
   };
 
-  console.log(handleVisitedCountry);
-
   return (
     <div className={`country ${visited && `visited`}`}>
       <h3>Name: {name?.common}</h3>
@@ -21,7 +19,10 @@ const Country = ({ country, handleVisitedCountry }) => {
       <button
         style={{ borderRadius: visited ? "10px" : "5px" }}
         className={visited && "btn"}
-        onClick={handleVisited}
+        onClick={() => {
+          handleVisited();
+          handleVisitedCountry(country);
+        }}
       >
         {visited ? "Visited" : "visit"}
       </button>
