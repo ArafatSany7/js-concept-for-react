@@ -4,3 +4,10 @@
   margin: 3px;
   border-radius: 30px;
 }
+.visited {
+  background: aquamarine;
+}
+.btn {
+  background-color: black;
+  font: bold;
+}
