@@ -17,7 +17,7 @@ const Country = ({ country, handleVisitedCountry }) => {
         <small>Code : {cca3}</small>
       </p>
       <button
-        style={{ borderRadius: visited ? "10px" : "5px" }}
+        style={{ borderRadius: visited ? "30px" : "5px" }}
         className={visited && "btn"}
         onClick={() => {
           handleVisited();
