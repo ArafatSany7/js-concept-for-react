@@ -1,14 +1,12 @@
-import Country from "./../Country/Country";
-import CountryData from "./../CountryData/countryData";
 const CountryDetails = ({ country, handleVisitedCountry }) => {
   return (
     <div>
       <h4>Country details: </h4>
       <hr />
-      <CountryData
+      <countryData
         Country={country}
         handleVisitedCountry={handleVisitedCountry}
-      ></CountryData>
+      ></countryData>
     </div>
   );
 };
