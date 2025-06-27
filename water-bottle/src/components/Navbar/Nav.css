@@ -1,0 +1,13 @@
+.headnav {
+  display: flex;
+  justify-content: space-between;
+}
+.menu {
+  display: flex;
+  padding: 5px;
+  margin: 10px;
+  gap: 20px;
+}
+.font {
+  font-size: larger;
+}
