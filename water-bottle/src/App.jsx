@@ -6,9 +6,11 @@ import Nav from "./components/Navbar/Nav";
 function App() {
   return (
     <>
-      <Nav></Nav>
-      <Header></Header>
-      <Bottles></Bottles>
+      <div style={{ backgroundColor: "black" }}>
+        <Nav></Nav>
+        <Header></Header>
+        <Bottles></Bottles>
+      </div>
     </>
   );
 }

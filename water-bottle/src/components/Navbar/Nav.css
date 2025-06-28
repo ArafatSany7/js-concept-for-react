@@ -1,6 +1,7 @@
 .headnav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .menu {
   display: flex;
@@ -11,4 +12,5 @@
 }
 .font {
   font-size: larger;
+  padding: 15px;
 }

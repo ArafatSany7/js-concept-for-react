@@ -7,6 +7,7 @@ const Bottle = ({ bottle }) => {
       <h3>Bottle: {name}</h3>
       <img src={img} alt="" />
       <p>Price : ${price}</p>
+      <button>Purches</button>
     </div>
   );
 };
