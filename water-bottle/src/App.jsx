@@ -6,7 +6,7 @@ import Nav from "./components/Navbar/Nav";
 function App() {
   return (
     <>
-      <div style={{ backgroundColor: "black" }}>
+      <div className="body">
         <Nav></Nav>
         <Header></Header>
         <Bottles></Bottles>

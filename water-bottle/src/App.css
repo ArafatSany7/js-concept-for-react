@@ -1,8 +1,14 @@
 #root {
-  max-width: 1280px;
+  /* max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 2rem; */
   text-align: center;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: url("./assets/nahil-naseer-xljtGZ2-P3Y-unsplash.jpg");
+  color: #fff; /* optional: makes text visible on black */
 }
 
 .logo {
