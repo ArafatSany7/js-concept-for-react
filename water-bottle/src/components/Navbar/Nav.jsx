@@ -10,6 +10,7 @@ const Nav = () => {
         <p>Search</p>
         <p>Cart</p>
         <p>Info</p>
+        <p>Contact</p>
       </div>
     </div>
   );
