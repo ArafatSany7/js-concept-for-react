@@ -9,7 +9,7 @@ const Nav = () => {
         <p>Menu</p>
         <p>Search</p>
         <p>Cart</p>
-        <p>Info</p>
+        <p>Info Us</p>
         <p>Contact</p>
       </div>
     </div>
