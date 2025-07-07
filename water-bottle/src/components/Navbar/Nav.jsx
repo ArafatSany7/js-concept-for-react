@@ -3,7 +3,7 @@ const Nav = () => {
   return (
     <div className="headnav">
       <div className="font">
-        <p>Bottle</p>
+        <p>BBottle</p>
       </div>
       <div className="menu">
         <p>Menu</p>
