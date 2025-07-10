@@ -8,7 +8,7 @@ const Nav = () => {
       <div className="menu">
         <p>Menu</p>
         <p>Search</p>
-        <p>Cart</p>
+        <p>Cart bottle</p>
         <p>Info Us</p>
         <p>Contact us</p>
       </div>
