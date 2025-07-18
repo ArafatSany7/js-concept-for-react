@@ -29,15 +29,7 @@ const DaisyNav = () => {
                 <a>Item 1</a>
               </li>
               <li>
-                <a>Parent</a>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
+                <a>Menu</a>
               </li>
               <li>
                 <a>Item 3</a>
@@ -49,23 +41,13 @@ const DaisyNav = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a>Item 1</a>
+              <a>Name</a>
             </li>
             <li>
-              <details>
-                <summary>Parent</summary>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
-              </details>
+              <a>Menu</a>
             </li>
             <li>
-              <a>Item 3</a>
+              <a>Info</a>
             </li>
           </ul>
         </div>
@@ -76,5 +58,4 @@ const DaisyNav = () => {
     </div>
   );
 };
-
 export default DaisyNav;
