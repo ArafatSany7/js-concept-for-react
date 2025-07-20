@@ -56,7 +56,14 @@ const PriceOptions = () => {
     },
   ];
 
-  return <div></div>;
+  return (
+    <div>
+      <h2 className="text-5xl">Best price in the world</h2>
+      {pricingOptions.map((option) => (
+        <PriceOption key={option.id} option={option}></PriceOption>
+      ))}
+    </div>
+  );
 };
 
 export default PriceOptions;
