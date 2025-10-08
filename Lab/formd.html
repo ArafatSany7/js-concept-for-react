@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      .fieldset {
+        background-color: #f3f4f6;
+        border: 1px solid #d1d5db;
+        border-radius: 12px;
+        width: 390px;
+        padding: 16px;
+      }
+      .fieldset-legend {
+        font-weight: bold;
+        font-size: 19px;
+        margin-bottom: 16px;
+      }
+      .label {
+        display: block;
+        margin-top: 16px;
+        margin-bottom: 4px;
+        font-size: 16px;
+        color: #374151;
+      }
+      .input {
+        display: block;
+        width: 95%;
+        padding: 8px;
+        border: 1px solid #d1d5db;
+        border-radius: 6px;
+        margin-bottom: 8px;
+        font-size: 16px;
+      }
+      .btn {
+        display: inline-block;
+        padding: 8px 24px;
+        background-color: #374151;
+        color: #fff;
+        border: none;
+        border-radius: 6px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 16px;
+      }
+      .btn:active,
+      .btn:focus {
+        background-color: #1f2937;
+      }
+    </style>
+    <div style="justify-content: center">
+      <fieldset class="fieldset">
+        <legend class="fieldset-legend">Login</legend>
+
+        <label class="label">Email</label>
+        <input type="email" class="input" placeholder="Email" />
+
+        <label class="label">Password</label>
+        <input type="password" class="input" placeholder="Password" />
+
+        <button class="btn">Login</button>
+      </fieldset>
+    </div>
+  </body>
+</html>
